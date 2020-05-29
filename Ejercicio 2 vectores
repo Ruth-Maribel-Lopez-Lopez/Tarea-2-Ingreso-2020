@@ -1,0 +1,20 @@
+Algoritmo Ej_2
+	//El siguiente algoritmo debe leer 50 números en un vector A, elevar al
+	//cuadrado cada valor almacenado en el mismo vector, almacenar el
+	//resultado en otro vector B, Imprimir el vector original y el vector
+	//resultante.
+	Definir i Como Entero
+	Dimension a(50)
+	Dimension b(50)
+	cua=0
+	Imprimir "Vector A: "
+	para i=1 hasta 50
+		a(i)= azar(9)+1
+		Imprimir a(i)
+	FinPara
+	Imprimir "Vector B: "
+	para i=1 hasta 50
+		b(i)= a(i)*a(i)
+		Imprimir b(i)
+	FinPara
+FinAlgoritmo
