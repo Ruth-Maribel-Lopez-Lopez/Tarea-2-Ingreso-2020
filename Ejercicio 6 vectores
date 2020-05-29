@@ -1,0 +1,26 @@
+Algoritmo Ej_6
+	//Se tiene en memoria de un vector K de mil elementos, encontrar el menor
+	//elemento entre las primeras 500 posiciones y el mayor valor entre las
+	//siguientes. 500 posiciones.
+	Definir  i Como Entero
+	Dimension k(1000)
+	c1=0
+	para i=1 hasta 1000
+		k(i)= azar(30)+1
+		Imprimir k(i)
+	FinPara
+	men= k(1)
+	para i=1 hasta 500
+		si k(i)<men
+			men= k(i)
+		FinSi
+	FinPara
+	Imprimir "Menor entre las primeras 500 posiciones: ", men
+	may= k(6)
+	para i=501 hasta 1000
+		si k(i)>may
+			may= k(i)
+		FinSi
+	FinPara
+	Imprimir "Mayor entre las siguientes 500 posiciones: ", may
+FinAlgoritmo
