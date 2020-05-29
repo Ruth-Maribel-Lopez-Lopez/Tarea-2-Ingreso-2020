@@ -1,0 +1,22 @@
+Algoritmo ej_1
+	//Se tiene en memoria un vector V de N elementos. Hacer un algoritmo que
+	//permita encontrar e imprimir la mediana. Mediana es el elemento del
+	//medio o central, si N es impar. Si N es par, la mediana es la semisuma de
+	//los dos centrales.
+	Definir i Como Entero
+	leer n
+	Dimension v(n)
+	i=1
+	me=0
+	Mientras i<=n
+		v(i)= azar(9)+1
+		Imprimir v(i)
+		i=i+1
+		si n mod 2=1
+			me= v(redon(n/2))
+		SiNo
+			me= (v(n/2)+ v(n/2+1))/2
+		FinSi
+	FinMientras
+	Imprimir "La mediana es: ", me
+FinAlgoritmo
