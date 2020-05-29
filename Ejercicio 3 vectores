@@ -1,0 +1,28 @@
+Algoritmo Ej_3
+	//Se tiene un vector de 6 elementos, crear dos vectores, en uno cargue los
+	//valores pares y en el otro los valores impares del vector cargado.
+	Definir i Como Entero
+	Dimension v(6)
+	Dimension w(6)
+	Dimension x(6)
+	Imprimir "Vector original: "
+	para i=1 hasta 6
+		v(i)= azar(9)+1
+		Imprimir v(i)
+	FinPara
+	Imprimir "Vector con valores pares: "
+	para i=1 hasta 6
+		si v(i) mod 2=0
+			w(i)= v(i)
+			Imprimir w(I)
+			
+		FinSi
+	FinPara
+	Imprimir "Vector con valores impares: "
+	para i=1 hasta 6
+		si v(i) mod 2=1
+			x(i)= v(i)
+			Imprimir x(I)
+		FinSi
+	FinPara
+FinAlgoritmo
