@@ -1,0 +1,15 @@
+Algoritmo Ej_4
+	//Se tiene un vector con 1000 elementos, encontrar la cantidad de números
+	//pares y mayores que 18
+	Definir  i Como Entero
+	Dimension v(10)
+	c1=0
+	para i=1 hasta 10
+		v(i)= azar(30)+1
+		Imprimir v(i)
+		si v(i) mod 2=0 y v(i)>18
+			c1=c1+1
+		FinSi
+	FinPara
+	Imprimir "La cantidad de elementos pares y mayores que 18 es: ", c1
+FinAlgoritmo
